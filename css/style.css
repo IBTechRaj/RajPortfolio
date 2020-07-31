@@ -231,20 +231,20 @@ h3.heading {
    background-repeat: no-repeat;
    height: 250px;
 }
-#private {
-   background-image: url('../img/faceBook.png');
+#game {
+   background-image: url('../img/flySafe.png');
    background-size: 100%;
    background-repeat: no-repeat;
    height: 250px;
 }
 #calculator {
-   background-image: url('../img/faceBook.png');
+   background-image: url('../img/calculator.png');
    background-size: 100%;
    background-repeat: no-repeat;
    height: 250px;
 }
-#game {
-   background-image: url('../img/flySafe.png');
+#recipe {
+   background-image: url('../img/recipe-store.png');
    background-size: 100%;
    background-repeat: no-repeat;
    height: 250px;
@@ -306,7 +306,7 @@ h3.heading {
    left: 0;
    z-index: -9999;
 }
-.fixed-dark {
+/*.fixed-dark {
    background-image: url('../img/fixed/freelancer.png');
    position: fixed;
    height: 100%;
@@ -320,6 +320,18 @@ h3.heading {
    top: 0;
    left: 0;
    display: table;
+}*/
+.fixed-dark {
+   background: rgba(0, 50, 50, .7);
+   position: fixed;
+   height: 100%;
+   width: 100%;
+   background-size: cover;
+   background-position: center center;
+   -webkit-transform: translateZ(0);
+   transform: translateZ(0);
+   will-change: transform;
+   display: table;
 }
 .dark {
    background-color: rgba(0, 0, 0, .7);
@@ -327,35 +339,35 @@ h3.heading {
    z-index: 1000;
 }
 .ib-desig-1 {
-   font-size: 2rem;
+   font-size: 1.5rem;
    background-color: #13d4aa;
    color: white;
    
 }
 .ib-desig-tasks-1 {
-   font-size: 2rem;
+   font-size: 1.5rem;
    background-color: #5aa9ed;
    color: white; 
 }
 .ib-desig-2 {
-   font-size: 2rem;
+   font-size: 1.5rem;
    background-color: #E5C28A;
    color: white;
    
 }
 .ib-desig-tasks-2 {
-   font-size: 2rem;
+   font-size: 1.5rem;
    background-color: #CCD2D2;
    color: white; 
 }
 .ib-desig-3 {
-   font-size: 2rem;
+   font-size: 1.5rem;
    background-color: #13d4aa;
    color: white;
    
 }
 .ib-desig-tasks-3 {
-   font-size: 2rem;
+   font-size: 1.5rem;
    background-color: #5aa9ed;
    color: white; 
 }
@@ -374,7 +386,7 @@ h3.heading {
    transition: transform .4s ease;
 }
 .portfolio-item {
-   height: 400px;
+   height: 350px;
 }
 .portfolio-item-edu img:hover {
    transform: scale(1.3);
