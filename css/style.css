@@ -10,6 +10,7 @@ body {
   overflow-x: hidden;
   font-family: "Lato", sans-serif;
   color: #505962;
+  /* color: #2168af; */
 }
 .text-nuno {
   color: #1ebba3;
@@ -98,7 +99,8 @@ a.btn,
 }
 .home-inner {
   /* background-image: url('../img/computers.jpg');*/
-  background: rgba(0, 50, 50, 0.7);
+  /* background: rgba(0, 50, 50, 0.7); */
+  background: rgba(54, 27, 177, 0.7);
   position: fixed;
   height: 100%;
   width: 100%;
