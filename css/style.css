@@ -142,8 +142,8 @@ a.btn,
   position: absolute;
   bottom: 0;
   width: 100%;
-  animation: bounce 2s infinite;
-  -webkit-animation: bounce 2s infinite;
+  /* animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite; */
 }
 .down-arrow .svg-inline--fa {
   color: white;
@@ -338,7 +338,7 @@ h3.heading {
   display: table;
 }
 .dark {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(53, 143, 221, 0.7);
   padding: 7rem 0;
   z-index: 1000;
 }
