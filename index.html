@@ -21,10 +21,15 @@
     <!-- Plugins.css -->
     <link rel="stylesheet" href="css/plugins.css" />
     <!-- Google Fonts https://fonts.google.com/ -->
-    <link
+    <!-- <link
       href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap"
       rel="stylesheet"
+    /> -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,700"
+      rel="stylesheet"
     />
+
     <!-- Animate.css https://cdnjs.com/libraries/animate.css/
 		https://daneden.github.io/animate.css/ -->
     <link
@@ -72,7 +77,6 @@
         <div class="container-fluid">
           <div>
             <ul class="social">
-              <!-- <a href="#home" class="navbar-brand"><img src="img/nuno.png" alt=""></a> -->
               <a href="#home" class="navbar-brand"
                 ><img
                   src="img/rajSmPhoto.jpg"
@@ -124,7 +128,7 @@
                 <a href="#projects" class="nav-link">Projects</a>
               </li>
               <li class="nav-item">
-                <a href="#freelance" class="nav-link">Experience</a>
+                <a href="#experience" class="nav-link">Experience</a>
               </li>
               <!-- <li class="nav-item">
                 <a href="#portfolio" class="nav-link">Past</a>
@@ -152,20 +156,11 @@
       <!-- Start Landing Page Caption -->
       <div class="caption text-center text-light text-uppercase">
         <h1 class="font-weight-bold os-animation">
-          <!--
-          data-animation="fadeInUp"
-          data-delay=".6s" -->
-          Welcome to <span class="text-nuno">My Portfolio</span>
-        </h1>
-        <h3 class="os-animation">
-          <!--
-          data-animation="fadeInUp"
-          data-delay=".8s"
-          
-          > -->
           Rajasekhar Katakamsetty
+        </h1>
+        <h3 class="os-animation text-camel">
+          Full-stack Web Developer(Rails/React)
         </h3>
-        <!-- <a href="#features" class="btn btn-outline-light btn-lg rounded-0 os-animation" data-animation="fadeInUp" data-delay="1s">Get Started</a> -->
       </div>
       <!-- End Landing Page Caption -->
 
@@ -184,380 +179,488 @@
       <!-- Start Jumbotron -->
       <div class="jumbotron m-0 py-5">
         <div class="col-12 os-animation">
-          <h3 class="heading">RECENT PROJECTS</h3>
+          <h3 class="heading" style="color: white">RECENT PROJECTS</h3>
           <div class="heading-underline"></div>
         </div>
 
         <div class="container">
-          <div class="row text-center px-lg-4 px-xl-5">
-            <div class="col-sm-6 os-animation">
-              <div class="header-bg">
-                <h3>FACEBOOK LIKE APP</h3>
-                <p class="lead header-skills">Ruby, Ruby on Rails, CSS</p>
-              </div>
-              <div id="face-book">
-                <a
-                  href="https://microverse-social-media.herokuapp.com/"
-                  class="btn btn-secondary btn-sm btn-preview"
-                  target="_blank"
-                  >Visit website</a
-                >
-                <a
-                  href="https://github.com/IBTechRaj/myFaceBook/"
-                  target="_blank"
-                  class="btn btn-secondary btn-sm btn-preview"
-                  >Visit GitHub</a
-                >
-              </div>
+          <div class="row text-center px-lg-0 px-xl-0">
+            <div class="col-sm-6 px-0 py-5">
+              <div id="face-book-1"></div>
             </div>
-
-            <div class="col-sm-6 os-animation">
+            <div class="col-sm-6 px-0 py-5">
               <div class="header-bg">
-                <h3>WEATHER APP</h3>
-                <p class="lead header-skills">
-                  HTML, CSS, Bootstrap, JavaScript, Promises
-                </p>
-              </div>
-              <div id="weather">
-                <a
-                  href="https://microverse-social-media.herokuapp.com/"
-                  class="btn btn-secondary btn-sm btn-preview"
-                  target="_blank"
-                  >Visit website</a
-                >
-                <a
-                  href="https://github.com/IBTechRaj/weatherApp/"
-                  class="btn btn-secondary btn-sm btn-preview"
-                  target="_blank"
-                  >Visit GitHub</a
-                >
+                <div id="face-book-2">
+                <div>
+                  <h1>My Facebook</h1>
+                  </div>
+                  <h4 class="text-justify px-5 py-2">
+                    This is a web app similar to Facebook designed to look
+                    almost as original Facebook.
+                  </h4>
+                  <h2 class="lead header-skills text-justify px-5 py-2">
+                    Technologies: Ruby, Ruby on Rails, CSS
+                  </h2>
+                  <div>
+                    <a
+                      href="https://rajfakebook.herokuapp.com/"
+                      class="btn btn-nuno btn-sm"
+                      target="_blank"
+                      >View Demo</a
+                    >
+                    <a
+                      href="https://github.com/IBTechRaj/myFaceBook"
+                      class="btn btn-nuno btn-sm"
+                      target="_blank"
+                      >Source Code</a
+                    >
+                  </div>
+                </div>
               </div>
             </div>
           </div>
 
-          <div class="row text-center px-lg-4 px-xl-5">
-            <div class="col-sm-6 os-animation">
-              <div class="header-bg">
-                <h3>TODO LIST APP</h3>
-                <p class="lead header-skills">HTML, CSS, JavaScript</p>
-              </div>
-              <div id="todo">
-                <a
-                  href="https://ibtechraj.github.io/rajTodoList//"
-                  class="btn btn-secondary btn-sm btn-preview"
-                  target="_blank"
-                  >Visit website</a
-                >
-                <a
-                  href="https://github.com/IBTechRaj/rajTodoList/"
-                  class="btn btn-secondary btn-sm btn-preview"
-                  target="_blank"
-                  >Visit GitHub</a
-                >
-              </div>
+          <div class="row text-center px-lg-0 px-xl-0">
+            <div class="col-sm-6 px-0 py-5">
+              <div id="weather-app-1"></div>
             </div>
-
-            <div class="col-sm-6 os-animation">
+            <div class="col-sm-6 px-0 py-5">
               <div class="header-bg">
-                <h3>VIDEO GAME</h3>
-                <p class="lead header-skills">
-                  HTML, Phaser, JavaScript, Promises
-                </p>
-              </div>
-              <div id="game">
-                <a
-                  href="https://aeroplane.netlify.com/"
-                  class="btn btn-secondary btn-sm btn-preview"
-                  target="_blank"
-                  >Visit website</a
-                >
-                <a
-                  href="https://github.com/IBTechRaj/flySafe/"
-                  class="btn btn-secondary btn-sm btn-preview"
-                  target="_blank"
-                  >Visit GitHub</a
-                >
+                <div id="weather-app-2">
+                  <h1>Weather App</h1>
+                  <h4 class="text-justify px-5 py-1">
+                    A weather app that pulls from the OpenWeatherMap API to
+                    allow users to search for and view the forecast in cities
+                    worldwide.
+                  </h4>
+                  <h2 class="lead header-skills text-justify px-5 py-0">
+                    Technologies: HTML, CSS, JavaScript, Promises
+                  </h2>
+                  <div>
+                    <a
+                      href="https://ibtechraj.github.io/weatherApp/"
+                      class="btn btn-nuno btn-sm"
+                      target="_blank"
+                      >View Demo</a
+                    >
+                    <a
+                      href="https://github.com/IBTechRaj/weatherApp"
+                      class="btn btn-nuno btn-sm"
+                      target="_blank"
+                      >Source Code</a
+                    >
+                  </div>
+                </div>
               </div>
             </div>
           </div>
 
-          <div class="row text-center px-lg-4 px-xl-5">
-            <div class="col-sm-6 os-animation">
-              <div class="header-bg">
-                <h3>CALCULATOR</h3>
-                <p class="lead header-skills">HTML, CSS, JavaScript, React</p>
-              </div>
-              <div id="calculator">
-                <a
-                  href="https://microverse-calc.herokuapp.com/"
-                  class="btn btn-secondary btn-sm btn-preview"
-                  target="_blank"
-                  >Visit website</a
-                >
-                <a
-                  href="https://github.com/IBTechRaj/ReactCalculator/"
-                  class="btn btn-secondary btn-sm btn-preview"
-                  target="_blank"
-                  >Visit GitHub</a
-                >
-              </div>
+          <div class="row text-center px-lg-0 px-xl-0">
+            <div class="col-sm-6 px-0 py-5">
+              <div id="todo-1"></div>
             </div>
-
-            <div class="col-sm-6 os-animation">
+            <div class="col-sm-6 px-0 py-5">
               <div class="header-bg">
-                <h3>RECIPE STORE</h3>
-                <p class="lead header-skills">React, Redux</p>
-              </div>
-              <div id="recipe">
-                <a
-                  href="https://recipe-store.herokuapp.com/"
-                  class="btn btn-secondary btn-sm btn-preview"
-                  target="_blank"
-                  >Visit website</a
-                >
-                <a
-                  href="https://github.com/IBTechRaj/recipe-store/"
-                  class="btn btn-secondary btn-sm btn-preview"
-                  target="_blank"
-                  >Visit GitHub</a
-                >
+                <div id="todo-2">
+                  <h1>Todo List App</h1>
+                  <h4 class="text-justify px-5 py-2">
+                    App that creates a list of projects and a list of ToDos in
+                    each project. Todos can be added, edited, or deleted.
+                  </h4>
+                  <h2 class="lead header-skills text-justify px-5 py-2">
+                    Technologies: HTML, CSS, JavaScript
+                  </h2>
+                  <div>
+                    <a
+                      href="https://ibtechraj.github.io/rajTodoList/"
+                      class="btn btn-nuno btn-sm"
+                      target="_blank"
+                      >View Demo</a
+                    >
+                    <a
+                      href="https://github.com/IBTechRaj/rajTodoList/"
+                      class="btn btn-nuno btn-sm"
+                      target="_blank"
+                      >Source Code</a
+                    >
+                  </div>
+                </div>
               </div>
             </div>
           </div>
+
+          <div class="row text-center px-lg-0 px-xl-0">
+            <div class="col-sm-6 px-0 py-5">
+              <div id="game-1"></div>
+            </div>
+            <div class="col-sm-6 px-0 py-5">
+              <div class="header-bg">
+                <div id="game-2">
+                  <h1>Fly Safe</h1>
+                  <h4 class="text-justify px-5 py-2">
+                    This is a video game. The player has to maneuver a plane
+                    avoiding the birds that come his way.
+                  </h4>
+                  <h2 class="lead header-skills text-justify px-5 py-2">
+                    Technologies: HTML, Phaser, JavaScript, Promises
+                  </h2>
+                  <div>
+                    <a
+                      href="https://aeroplane.netlify.com/"
+                      class="btn btn-nuno btn-sm"
+                      target="_blank"
+                      >View Demo</a
+                    >
+                    <a
+                      href="https://github.com/IBTechRaj/flySafe/"
+                      class="btn btn-nuno btn-sm"
+                      target="_blank"
+                      >Source Code</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row text-center px-lg-0 px-xl-0">
+            <div class="col-sm-6 px-0 py-5">
+              <div id="calculator-1"></div>
+            </div>
+            <div class="col-sm-6 px-0 py-5">
+              <div class="header-bg">
+                <div id="calculator-2">
+                  <h1>Calculator</h1>
+                  <h4 class="text-justify px-5 py-2">
+                    This App works as a calcultor. It takes input by mouse
+                    clicks and makes calculations and displays the result on the
+                    screen.
+                  </h4>
+                  <h2 class="lead header-skills text-justify px-5 py-2">
+                    Technologies: HTML, CSS, React, Bootstrap
+                  </h2>
+                  <div>
+                    <a
+                      href="https://microverse-calc.herokuapp.com/"
+                      class="btn btn-nuno btn-sm"
+                      target="_blank"
+                      >View Demo</a
+                    >
+                    <a
+                      href="https://github.com/IBTechRaj/ReactCalculator"
+                      class="btn btn-nuno btn-sm"
+                      target="_blank"
+                      >Source Code</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row text-center px-lg-0 px-xl-0">
+            <div class="col-sm-6 px-0 py-5">
+              <div id="recipe-store-1"></div>
+            </div>
+            <div class="col-sm-6 px-0 py-5">
+              <div class="header-bg">
+                <div id="recipe-store-2">
+                  <h1>Recipe Store</h1>
+                  <h4 class="text-justify px-5 py-2">
+                    This App retrieves recipe data from 'The Meal DB' website
+                    using their API and displays on the screen.
+                  </h4>
+                  <h2 class="lead header-skills text-justify px-5 py-2">
+                    Technologies: React, Redux
+                  </h2>
+                  <div>
+                    <a
+                      href="https://recipe-store.herokuapp.com/"
+                      class="btn btn-nuno btn-sm"
+                      target="_blank"
+                      >View Demo</a
+                    >
+                    <a
+                      href="https://github.com/IBTechRaj/recipe-store/"
+                      class="btn btn-nuno btn-sm"
+                      target="_blank"
+                      >Source Code</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+   
         </div>
         <!-- End Container-->
       </div>
       <!-- End Jumbotron -->
 
       <!-- Start Fixed BG IMG Dark -->
-      <div class="fixed" id="freelance">
-        <div class="row dark text-light text-center">
+      <div class="fixed container-fluid dark" id="experience">
+        <div class="row  text-light text-center">
           <div class="col-12 os-animation">
             <h3 class="heading">Experience</h3>
             <div class="heading-underline"></div>
           </div>
         </div>
 
-        <div class="row text-center dark text-light">
-          <div class="col-sm-6 os-animation" data-animation="fadeInLeft">
-            <div class="header-bg">
-              <h3>UNIX SHELL</h3>
-              <p class="lead header-skills">C and Linux</p>
+        <div class="container ">
+          <div class="row text-center px-lg-0 px-xl-0">
+            <div class="col-sm-6 px-0 py-5">
+              <div id="unix-1"></div>
             </div>
-            <div id="unix">
-              <a
-                href="https://github.com/IBTechRaj/UnixShell/"
-                class="btn btn-secondary btn-sm fixed-bottom btn-preview"
-                >Visit GitHub</a
-              >
-            </div>
-          </div>
-
-          <!-- <div class="col-sm-6 os-animation">
-            <div class="header-bg">
-              <h3>UNIX SHELL</h3>
-              <p class="lead header-skills">C and Linux</p>
-            </div>
-            <div id="unix">
-              <a
-                href="https://github.com/IBTechRaj/UnixShell/"
-                class="btn btn-secondary btn-sm d-flex btn-preview mt-auto"
-                >Visit GitHub</a
-              >
-            </div>
-          </div> -->
-
-          <div class="col-sm-6 os-animation">
-            <div class="header-bg">
-              <h3>MEMORY ALLOCATOR</h3>
-              <p class="lead header-skills">C and Linux</p>
-            </div>
-            <div id="memory">
-              <a
-                href="https://github.com/IBTechRaj/MemoryAllocator/"
-                target="_blank"
-                class="btn btn-secondary btn-sm btn-preview"
-                >Visit GitHub</a
-              >
-            </div>
-          </div>
-        </div>
-
-        <div class="row dark text-light text-center">
-          <div class="col-sm-6 os-animation">
-            <div class="header-bg">
-              <h3>CHURCH WEBSITE</h3>
-              <p class="lead header-skills">Wordpress (earlier Drupal)</p>
-            </div>
-            <div id="church">
-              <a
-                href="https://churchatvelachery.org/"
-                target="_blank"
-                class="btn btn-secondary btn-sm btn-preview"
-                >Visit website1</a
-              >
+            <div class="col-sm-6 px-0 py-5">
+              <div class="header-bg">
+                <div id="unix-2">
+                  <h1>Unix Shell</h1>
+                  <h4 class="text-justify px-5 py-2">
+                    This application creates a new shell that simulates the shell built into Unix/Linux operating system.
+                  </h4>
+                  <h2 class="lead header-skills text-justify px-5 py-2">
+                    Technologies: Linux, C
+                  </h2>
+                  <div>
+                    <a
+                      href="https://github.com/IBTechRaj/UnixShell"
+                      class="btn btn-nuno btn-sm"
+                      target="_blank"
+                      >Source Code</a
+                    >
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
-          <div class="col-sm-6 os-animation">
-            <div class="header-bg">
-              <h3>RECIPES</h3>
-              <p class="lead header-skills">HTML, CSS, Bootstrap</p>
+          <div class="row text-center px-lg-0 px-xl-0">
+            <div class="col-sm-6 px-0 py-5">
+              <div id="memory-1"></div>
             </div>
-            <div id="recipes">
-              <a
-                href="https://newbierecipes.com/"
-                target="_blank"
-                class="btn btn-secondary btn-sm btn-preview"
-                >Visit website2</a
-              >
-            </div>
-          </div>
-        </div>
+            <div class="col-sm-6 px-0 py-5">
+              <div class="header-bg">
+                <div id="memory-2">
+                  <h1>Memory Allocator</h1>
+                  <h4 class="text-justify px-5 py-2">
+                  This application demonstrates how a computer system allocates and deallocates memory.
 
-        <div class="row dark text-light text-center">
-          <div class="col-md-3"></div>
-          <div class="col-sm-6 os-animation">
-            <div class="header-bg">
-              <h3>LOOK OUT! THE END TIMES</h3>
-              <p class="lead header-skills">HTML, CSS, Bootstrap</p>
-            </div>
-            <div id="end-times">
-              <a
-                href="http://theendtimes.in/"
-                target="_blank"
-                class="btn btn-secondary btn-sm btn-preview"
-                >Visit website3</a
-              >
+                  </h4>
+                  <h2 class="lead header-skills text-justify px-5 py-2">
+                    Technologies: Linux, C
+                  </h2>
+                  <div>
+                    <a
+                      href="https://github.com/IBTechRaj/MemoryAllocator"
+                      class="btn btn-nuno btn-sm"
+                      target="_blank"
+                      >Source Code</a
+                    >
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="col-md-3"></div>
+
+          <div class="row text-center px-lg-0 px-xl-0">
+            <div class="col-sm-6 px-0 py-5">
+              <div id="church-1"></div>
+            </div>
+            <div class="col-sm-6 px-0 py-5">
+              <div class="header-bg">
+                <div id="church-2">
+                  <h1>Church Website</h1>
+                  <h4 class="text-justify px-5 py-2">
+                  Built a website for a non-profit organization (church) using Drupal and later converted to Wordpress.
+                  </h4>
+                  <h2 class="lead header-skills text-justify px-5 py-2">
+                    Technologies: Drupal
+                  </h2>
+                  <div>
+                    <a
+                      href="https://churchatvelachery.org/"
+                      class="btn btn-nuno btn-sm"
+                      target="_blank"
+                      >View Demo</a
+                    >
+                    <a                    
+                      class="btn btn-nuno btn-sm"
+                      target="_blank"
+                      >No Source Code</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row text-center px-lg-0 px-xl-0">
+            <div class="col-sm-6 px-0 py-5">
+              <div id="recipes-1"></div>
+            </div>
+            <div class="col-sm-6 px-0 py-5">
+              <div class="header-bg">
+                <div id="recipes-2">
+                  <h1>Recipes</h1>
+                  <h4 class="text-justify px-5 py-2">
+                 This is a recipes website built for a home chef. </h4>
+                  <h2 class="lead header-skills text-justify px-5 py-2">
+                    Technologies: HTML, CSS, Bootstrap
+                  </h2>
+                  <div>
+                    <a
+                      href="https://newbierecipes.com/"
+                      class="btn btn-nuno btn-sm"
+                      target="_blank"
+                      >View Demo</a
+                    >
+                    <a
+                      href="https://github.com/IBTechRaj/newbierecipes"
+                      class="btn btn-nuno btn-sm"
+                      target="_blank"
+                      >Source Code</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row text-center px-lg-0 px-xl-0">
+            <div class="col-sm-6 px-0 py-5">
+              <div id="end-times-1"></div>
+            </div>
+            <div class="col-sm-6 px-0 py-5">
+              <div class="header-bg">
+                <div id="end-times-2">
+                  <h1>The End Times</h1>
+                  <h4 class="text-justify px-5 py-0">
+                 This site tells about the prophecies in the Bible that have been fulfilled until now, that are happening at the present, and that are about to happen soon. 
+                 <h2 class="lead header-skills text-justify px-5 py-2">
+                    Technologies: HTML, CSS, Bootstrap
+                  </h2>
+                  <div>
+                    <a
+                      href="http://theendtimes.in/"
+                      class="btn btn-nuno btn-sm"
+                      target="_blank"
+                      >View Demo</a
+                    >
+                    <a
+                      href="https://github.com/IBTechRaj/End-Times"
+                      class="btn btn-nuno btn-sm"
+                      target="_blank"
+                      >Source Code</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
         </div>
 
         <div class="fixed-wrap">
           <div class="fixed-dark"></div>
         </div>
-      </div>
+     
       <!-- End Fixed BG IMG Dark -->
-    </div>
+    
     <!-- End of projects Section -->
 
     <!-- Start Portfolio Section -->
     <div id="portfolio" class="offset">
       <div class="container-fluid px-0">
         <div class="row justify-content-center py-5">
+
           <div class="col-12 mt-5 os-animation">
-            <h3 class="heading">IT EXPERIENCE IN BANK</h3>
+            <h3 class="heading" style="color: white">IT EXPERIENCE IN BANK</h3>
             <div class="heading-underline"></div>
           </div>
+        </div>
 
-          <div class="col-sm-6 p-0 os-animation">
-            <div class="portfolio-item text-center ib-desig-1 overflow-hidden">
-              <p class="ib-desig-text">
-                COMPUTER FACULTY / SYSTEMS SUPPORT <br />
-                at Indian Bank <br />
-                Core Banking System<br />
-                July 2005 - June 2012 <br />
-              </p>
+
+        <div class="row text-center px-lg-0 px-xl-0">
+          <div class="col-md-3"></div>
+            <div class="col-sm-6 px-0 py-5">
+              <div class="header-bg">
+                <div class="indbank py-5">
+                  <h1>Role: Computer Faculty/Systems Support </h1>
+                  <h4 class="text-justify px-5 py-5">
+                  
+                  Activity: During the transition time of the bank to CBS (Core Banking System),
+                Trained around 700 staff in Computer literacy, Core Banking application & 
+                Networking. Also, visited many branches for Installing application software, 
+                Systems configuration, Troubleshooting and training in CBS.
+              
+                  </h4>
+                  <h2 class="lead header-skills text-justify px-5 py-5">
+                    Technologies: Windows Server/Windows XP/CBS Application
+                  </h2>                  
+                </div>
+              </div>
             </div>
+            <div class="col-md-3"></div>
           </div>
 
-          <div class="col-sm-6 p-0 os-animation">
-            <div
-              class="portfolio-item text-left ib-desig-tasks-1 overflow-hidden"
-            >
-              <p class="ib-desig-text">
-                During the transition time of the bank from <br />TBC(Total
-                Branch Computerisation) to CBS (Core Banking System),<br />
-              </p>
-
-              <ul>
-                <li>Trained staff in Computer literacy & Networking</li>
-                <li>Trained around 700 staff in Core Banking application</li>
-                <li>Visited many branches for</li>
-                <ul>
-                  <li>Systems configuration</li>
-                  <li>Troubleshooting</li>
-                  <li>Installing application software</li>
-                </ul>
-                <li>Conducted workshops at branches to train staff</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="col-sm-6 p-0 os-animation">
-            <div class="portfolio-item text-center ib-desig-2 overflow-hidden">
-              <p class="ib-desig-text">
-                UNIX SYSTEM ADMINISTRATOR <br />
-                at Indian Bank <br />
-                Zonal EDP<br />
-                Jul 1996 – Nov 2003 <br />
-              </p>
-            </div>
-          </div>
-
-          <div class="col-sm-6 p-0 os-animation">
-            <div
-              class="portfolio-item text-left ib-desig-tasks-2 overflow-hidden"
-            >
-              <p class="ib-desig-text">
-                Extensively used Unix shell and automated tasks thereby
-                drastically reducing the EDP officers’ processing time by 90%.
-              </p>
-              <ul>
-                <li>
+        <div class="row text-center px-lg-0 px-xl-0">
+          <div class="col-md-3"></div>
+            <div class="col-sm-6 px-0 py-5">
+              <div class="header-bg">
+                <div class="indbank py-5">
+                  <h1>Role: Unix/Oracle SysAdmin </h1>
+                  <h4 class="text-justify px-5 py-5">
+                  Activity: Extensively used Unix shell and automated tasks thereby
+                  drastically reducing the EDP officers’ processing time by 90%.
                   Automated backups at a specified time to different media
-                </li>
-                <li>
                   Developed several utilities by using Awk, Sed and low-level
-                  system calls in Unix environment
-                </li>
-                <li>
-                  Configured a PC as Unix server to work as a standby in view of
-                  the frequent crash of main Unix server
-                </li>
-              </ul>
+                  system calls in Unix environment. Configured a PC as Unix server 
+                  to work as a standby in view of the frequent crash of main Unix server
+              
+                  </h4>
+                  <h2 class="lead header-skills text-justify px-5 py-5">
+                    Technologies: SCO Unix Server, Oracle Database, Shell Scripting, Windows
+                  </h2>                  
+                </div>
+              </div>
             </div>
+            <div class="col-md-3"></div>
           </div>
 
-          <div class="col-sm-6 p-0 os-animation">
-            <div class="portfolio-item text-center ib-desig-3 overflow-hidden">
-              <p class="ib-desig-text">
-                SYSTEMS ANALYST<br />
-                at Indian Bank <br />
-                Zonal EDP<br />
-                Aug 1992 – Jun 1996 <br />
-              </p>
+        <div class="row text-center px-lg-0 px-xl-0">
+          <div class="col-md-3"></div>
+            <div class="col-sm-6 px-0 py-5">
+              <div class="header-bg">
+                <div class="indbank py-5">
+                  <h1>Revised Credit Info System </h1>
+                  <h4 class="text-justify px-5 py-5">
+                Role: Systems Analyst/Programmer<br><br>
+                Designed and coded the entire banking application called 'Revised Credit Information System' that included a number of COBOL programs that included error validations, processing and compiling data into transactions and masters and also preparing a number of reports  
+                 
+              
+                  </h4>
+                  <h2 class="lead header-skills text-justify px-5 py-5">
+                    Technologies: AT&T Unix Server, Bourne Shell, COBOL
+                  </h2>                  
+                </div>
+              </div>
             </div>
+            <div class="col-md-3"></div>
           </div>
 
-          <div class="col-sm-6 p-0 os-animation">
-            <div
-              class="portfolio-item text-left ib-desig-tasks-3 overflow-hidden"
-            >
-              <p class="ib-desig-text">
-                Designed and developed Credit Information System. The process
-                involves
-                <br />
-              </p>
-
-              <ul>
-                <li>Capturing transaction data at branches</li>
-                <li>Processing the data to create account ledgers</li>
-                <li>Consolidating data to generate DCB data</li>
-                <li>DCB - Loan Disbursements, Collection and Balance</li>
-                <li>Generating various reports for MIS</li>
-              </ul>
-            </div>
-          </div>
-
+      </div>
+    </div>
+</div>       
+ 
           <div class="col-10 col-lg-9 col-xl-8 text-center pt-5 os-animation">
             <p class="lead">if you would like to collaborate with me</p>
-            <a href="#contact" class="btn btn-secondary btn-sm"
+            <a href="#contact" class="btn btn-secondary btn-sm btn-contact"
               >Let Us Connect</a
             >
           </div>
-        </div>
+        </div> 
         <!-- End Row -->
       </div>
       <!-- End Container -->
@@ -575,32 +678,7 @@
                 <p>Hyderabad<br />India</p>
                 <strong>Contact Info</strong>
                 <p>(+91) 98495 78298<br />krs30018@gmail.com</p>
-                <!-- <ul class="social">
-                  <li>
-                    <a
-                      href="https://www.facebook.com/raja.k.167"
-                      target="_blank"
-                      ><i class="fab fa-facebook-square"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="https://twitter.com/IBTechRaj" target="_blank"
-                      ><i class="fab fa-twitter-square"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.linkedin.com/in/rajkatakamsetty/"
-                      target="_blank"
-                      ><i class="fab fa-linkedin"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/IBTechRaj" target="_blank"
-                      ><i class="fab fa-github"></i
-                    ></a>
-                  </li>
-                </ul> -->
+                
               </div>
               <!-- End Column -->
 

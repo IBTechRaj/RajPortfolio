@@ -136,7 +136,9 @@ a.btn,
   padding: 0.8rem 1.5rem;
   font-size: 1.1rem;
 }
-
+.text-camel {
+  text-transform: capitalize;
+}
 /*-- Bouncing Down Arrow --*/
 .arrow {
   position: absolute;
@@ -160,16 +162,15 @@ a.btn,
   border-width: medium;
   border-radius: 0;
   padding: 0.5rem 1.1rem;
-  text-transform: uppercase;
-  font-size: 0.9rem;
+  font-size: 1rem;
   margin: 1rem;
 }
 .btn-nuno {
-  background-color: #1ebba3;
+  background-color: #4254f3;
   color: white;
 }
 .btn-nuno:hover {
-  background-color: #189582;
+  background-color: #9086ec;
   color: white;
 }
 h3.heading {
@@ -198,16 +199,18 @@ h3.heading {
    background-color: pink;
 }*/
 .jumbotron {
-  background-color: #addbd8;
+  /* background-color: #addbd8; */
+  background-color: #14031f;
 }
 .header-bg {
-  background-color: #1ebba3;
-  color: black;
+  background-color: #0a011a;
+  color: white;
 }
 .header-skills {
-  color: black;
-  margin-bottom: 0;
+  color: #c78beb;
+  margin-bottom: 5rem;
   margin-top: -8px;
+  font-size: 1.5rem;
 }
 .btn-preview {
   background-color: #1ebba3;
@@ -216,43 +219,75 @@ h3.heading {
   /*display: none;*/
 }
 
-#face-book {
-  /*background-color: pink;*/
-  background-image: url("../img/faceBook.png");
+/* Basic Styles */
+.pr-button {
+  margin-bottom: 3em;
+}
+.button-basicx {
+  background-color: #4b5052;
+  border: 2px solid black;
+  color: whitesmoke;
+  padding: 1em 1.5em;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1em;
+  display: inline-block;
+  width: 20%;
+  height: 3%;
+}
+#face-book-1 {
+  background-image: url("../img/fakebook1.png");
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 250px;
-  margin-right: 5px;
+  height: 240px;
 }
-#weather {
+#face-book-2 {
+  height: 240px;
+}
+
+#weather-app-1 {
   background-image: url("../img/weatherApp.png");
   background-size: 100%;
   background-repeat: no-repeat;
-  height: 250px;
-  /*border: black solid 1px;*/
+  height: 240px;
 }
-#todo {
+#weather-app-2 {
+  height: 240px;
+}
+#todo-1 {
   background-image: url("../img/rajTodo.png");
   background-size: 100%;
   background-repeat: no-repeat;
   height: 250px;
 }
-#game {
+#todo-2 {
+  height: 240px;
+}
+#game-1 {
   background-image: url("../img/flySafe.png");
   background-size: 100%;
   background-repeat: no-repeat;
   height: 250px;
 }
-#calculator {
+#game-2 {
+  height: 240px;
+}
+#calculator-1 {
   background-image: url("../img/calculator.png");
   background-size: 100%;
   background-repeat: no-repeat;
   height: 250px;
 }
-#recipe {
+#calculator-2 {
+  height: 250px;
+}
+#recipe-store-1 {
   background-image: url("../img/recipe-store.png");
   background-size: 100%;
   background-repeat: no-repeat;
+  height: 250px;
+}
+#recipe-store-2 {
   height: 250px;
 }
 
@@ -262,39 +297,52 @@ h3.heading {
 .bind {
   display: inline-block;
 }
-#end-times {
-  background-image: url("../img/endTimes.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  height: 285px;
-  /*border: solid black 1px;*/
-}
-#recipes {
-  background-image: url("../img/recipeSite.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  height: 285px;
-}
-#church {
-  background-image: url("../img/churchVelachery.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  height: 285px;
-  /*padding-left: -5px;*/
-}
-#unix {
+
+#unix-1 {
   background-image: url("../img/shell.png");
   background-size: 100%;
   background-repeat: no-repeat;
-  height: 300px;
-  /*border-style: solid;*/
-  border-right: solid black 5px;
+  height: 250px;
 }
-#memory {
+#unix-2 {
+  height: 250px;
+}
+
+#memory-1 {
   background-image: url("../img/memory.png");
   background-size: 100%;
   background-repeat: no-repeat;
-  height: 300px;
+  height: 250px;
+}
+#memory-2 {
+  height: 250px;
+}
+#church-1 {
+  background-image: url("../img/churchVelachery.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 250px;
+}
+#church-2 {
+  height: 250px;
+}
+#recipes-1 {
+  background-image: url("../img/recipeSite.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 240px;
+}
+#recipes-2 {
+  height: 240px;
+}
+#end-times-1 {
+  background-image: url("../img/endTimes.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 250px;
+}
+#end-times-2 {
+  height: 250px;
 }
 .fixed {
   position: relative;
@@ -310,21 +358,6 @@ h3.heading {
   left: 0;
   z-index: -9999;
 }
-/*.fixed-dark {
-   background-image: url('../img/fixed/freelancer.png');
-   position: fixed;
-   height: 100%;
-   width: 100%;
-   background-size: cover;
-   background-position: center center;
-   -webkit-transform: translateZ(0);
-   transform: translateZ(0);
-   will-change: transform;
-   z-index: -1;
-   top: 0;
-   left: 0;
-   display: table;
-}*/
 .fixed-dark {
   background: rgba(0, 50, 50, 0.7);
   position: fixed;
@@ -338,10 +371,17 @@ h3.heading {
   display: table;
 }
 .dark {
-  background-color: rgba(53, 143, 221, 0.7);
+  /* background-color: rgba(53, 143, 221, 0.7); */
+  /* background-color: rgba(2, 10, 17, 0.911); */
+  background-color: rgba(13, 67, 116, 0.911);
   padding: 7rem 0;
   z-index: 1000;
 }
+
+.indbank {
+  height: 350px;
+}
+
 .ib-desig-1 {
   font-size: 1.5rem;
   background-color: #13d4aa;
@@ -520,15 +560,19 @@ blockquote .svg-inline--fa {
 }
 
 /*============= CONTACT SECTION =============*/
-
+.btn-contact {
+  background-color: black;
+}
 .footer {
   background: url("../img/footer/footer.jpg") no-repeat;
+  background-color: black;
   background-size: cover;
   color: white;
   /* background-color: #505962; */
 }
 .row.outer {
-  background-color: rgba(57, 63, 70, 0.85);
+  /* background-color: rgba(57, 63, 70, 0.85); */
+  background-color: black;
   padding: 1rem 2rem 3rem;
 }
 .footer img {
@@ -552,7 +596,8 @@ blockquote .svg-inline--fa {
   margin-bottom: 1.3rem;
 }
 .form-control {
-  background-color: #53595f;
+  /* background-color: #53595f; */
+  background-color: black;
   border-radius: 0;
   border: 0.15rem solid #666b71;
   color: white !important;
@@ -599,3 +644,138 @@ Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 
 =============*/
+
+@media (max-width: 992px) {
+  .jumbotron h1 {
+    font-size: 2.25rem;
+  }
+  .jumbotron h2 {
+    font-size: 14px;
+  }
+  .jumbotron h4 {
+    font-size: 1.25rem;
+  }
+  #experience h1 {
+    font-size: 2.25rem;
+  }
+  #experience h2 {
+    font-size: 14px;
+  }
+  #experience h4 {
+    font-size: 1.25rem;
+  }
+  .caption h1 {
+    font-size: 4rem;
+    letter-spacing: 0.3rem;
+    text-shadow: 0.1rem 0.1rem 0.8rem black;
+    padding-bottom: 1rem;
+  }
+  .caption h3 {
+    font-size: 2.25rem;
+    text-shadow: 0.1rem 0.1rem 0.5rem black;
+    padding-bottom: 2rem;
+  }
+  h3.heading {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  .heading-underline {
+    width: 2.75rem;
+    height: 0.2rem;
+    background-color: #1ebba3;
+    margin: 0 auto 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .jumbotron h1 {
+    font-size: 2rem;
+  }
+  .jumbotron h2 {
+    font-size: 12px;
+  }
+  .jumbotron h4 {
+    font-size: 1rem;
+  }
+  #experience h1 {
+    font-size: 2rem;
+  }
+  #experience h2 {
+    font-size: 12px;
+  }
+  #experience h4 {
+    font-size: 1rem;
+  }
+  .caption h1 {
+    font-size: 3.5rem;
+    letter-spacing: 0.3rem;
+    text-shadow: 0.1rem 0.1rem 0.8rem black;
+    padding-bottom: 1rem;
+  }
+  .caption h3 {
+    font-size: 2rem;
+    text-shadow: 0.1rem 0.1rem 0.5rem black;
+    padding-bottom: 2rem;
+  }
+  h3.heading {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.25rem;
+    text-align: center;
+    margin-bottom: 1.25rem;
+  }
+  .heading-underline {
+    width: 2.5rem;
+    height: 0.2rem;
+    background-color: #1ebba3;
+    margin: 0 auto 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .jumbotron h1 {
+    font-size: 1.75rem;
+  }
+  .jumbotron h2 {
+    font-size: 12px;
+  }
+  .jumbotron h4 {
+    font-size: 1rem;
+  }
+  #experience h1 {
+    font-size: 1.75rem;
+  }
+  #experience h2 {
+    font-size: 12px;
+  }
+  #experience h4 {
+    font-size: 1rem;
+  }
+  .caption h1 {
+    font-size: 3rem;
+    letter-spacing: 0.3rem;
+    text-shadow: 0.1rem 0.1rem 0.8rem black;
+    padding-bottom: 1rem;
+  }
+  .caption h3 {
+    font-size: 1.75rem;
+    text-shadow: 0.1rem 0.1rem 0.5rem black;
+    padding-bottom: 2rem;
+  }
+  h3.heading {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .heading-underline {
+    width: 2rem;
+    height: 0.2rem;
+    background-color: #1ebba3;
+    margin: 0 auto 2rem;
+  }
+}
