@@ -101,7 +101,7 @@ a.btn,
   /* background-image: url('../img/computers.jpg');*/
   /* background: rgba(0, 50, 50, 0.7); */
   background: rgba(54, 27, 177, 0.7);
-  background: black;
+  background: #0f0985;
   position: fixed;
   height: 100%;
   width: 100%;
@@ -240,6 +240,7 @@ h3.heading {
   background-image: url("../img/fakebook1.png");
   background-repeat: no-repeat;
   background-size: 100%;
+  background-size: cover;
   height: 240px;
 }
 #face-book-2 {
@@ -249,6 +250,7 @@ h3.heading {
 #weather-app-1 {
   background-image: url("../img/weatherApp.png");
   background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 240px;
 }
@@ -258,6 +260,7 @@ h3.heading {
 #todo-1 {
   background-image: url("../img/rajTodo.png");
   background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 250px;
 }
@@ -267,6 +270,7 @@ h3.heading {
 #game-1 {
   background-image: url("../img/flySafe.png");
   background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 250px;
 }
@@ -276,6 +280,7 @@ h3.heading {
 #calculator-1 {
   background-image: url("../img/calculator.png");
   background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 250px;
 }
@@ -285,6 +290,7 @@ h3.heading {
 #recipe-store-1 {
   background-image: url("../img/recipe-store.png");
   background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 250px;
 }
@@ -302,6 +308,7 @@ h3.heading {
 #unix-1 {
   background-image: url("../img/shell.png");
   background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 250px;
 }
@@ -312,6 +319,7 @@ h3.heading {
 #memory-1 {
   background-image: url("../img/memory.png");
   background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 250px;
 }
@@ -321,6 +329,7 @@ h3.heading {
 #church-1 {
   background-image: url("../img/churchVelachery.png");
   background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 250px;
 }
@@ -330,6 +339,7 @@ h3.heading {
 #recipes-1 {
   background-image: url("../img/recipeSite.png");
   background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 240px;
 }
@@ -339,6 +349,7 @@ h3.heading {
 #end-times-1 {
   background-image: url("../img/endTimes.png");
   background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 250px;
 }
