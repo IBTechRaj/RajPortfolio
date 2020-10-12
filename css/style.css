@@ -124,12 +124,12 @@ a.btn,
 .caption h1 {
   font-size: 4.5rem;
   letter-spacing: 0.3rem;
-  text-shadow: 0.1rem 0.1rem 0.8rem black;
+  /*text-shadow: 0.1rem 0.1rem 0.8rem black;*/
   padding-bottom: 1rem;
 }
 .caption h3 {
   font-size: 2.5rem;
-  text-shadow: 0.1rem 0.1rem 0.5rem black;
+  /*text-shadow: 0.1rem 0.1rem 0.5rem black;*/
   padding-bottom: 2rem;
 }
 .caption .btn-lg {
@@ -684,7 +684,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
   }
   .caption h3 {
     font-size: 2.25rem;
-    text-shadow: 0.1rem 0.1rem 0.5rem black;
+    /*text-shadow: 0.1rem 0.1rem 0.5rem black;*/
     padding-bottom: 2rem;
   }
   h3.heading {
@@ -724,12 +724,12 @@ Extra (xl) large devices (large desktops, 1200px and up)
   .caption h1 {
     font-size: 3.5rem;
     letter-spacing: 0.3rem;
-    text-shadow: 0.1rem 0.1rem 0.8rem black;
+    /*text-shadow: 0.1rem 0.1rem 0.8rem black;*/
     padding-bottom: 1rem;
   }
   .caption h3 {
     font-size: 2rem;
-    text-shadow: 0.1rem 0.1rem 0.5rem black;
+    /*text-shadow: 0.1rem 0.1rem 0.5rem black;*/
     padding-bottom: 2rem;
   }
   h3.heading {
@@ -769,12 +769,12 @@ Extra (xl) large devices (large desktops, 1200px and up)
   .caption h1 {
     font-size: 3rem;
     letter-spacing: 0.3rem;
-    text-shadow: 0.1rem 0.1rem 0.8rem black;
+    /*text-shadow: 0.1rem 0.1rem 0.8rem black;*/
     padding-bottom: 1rem;
   }
   .caption h3 {
     font-size: 1.75rem;
-    text-shadow: 0.1rem 0.1rem 0.5rem black;
+    /*text-shadow: 0.1rem 0.1rem 0.5rem black;*/
     padding-bottom: 2rem;
   }
   h3.heading {
