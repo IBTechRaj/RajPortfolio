@@ -679,7 +679,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
   .caption h1 {
     font-size: 4rem;
     letter-spacing: 0.3rem;
-    text-shadow: 0.1rem 0.1rem 0.8rem black;
+    /*text-shadow: 0.1rem 0.1rem 0.8rem black;*/
     padding-bottom: 1rem;
   }
   .caption h3 {
