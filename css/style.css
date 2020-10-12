@@ -120,7 +120,7 @@ a.btn,
   top: 38%;
   width: 100%;
   max-width: 100%;
-  color: white;
+  color: rgba(240,240,240);
 }
 .caption h1 {
   font-size: 4.5rem;
