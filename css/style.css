@@ -298,6 +298,16 @@ h3.heading {
 #recipe-store-2 {
   height: 250px;
 }
+#tracker-app-1 {
+  background-image: url("../img/track1.png");
+  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+}
+#tracker-app-2 {
+  height: 250px;
+}
 
 /*===== FIXED BACKGROUND IMG DARK =====*/
 
