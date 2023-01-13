@@ -1,436 +1,353 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
-    />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Raj WebDev</title>
-    <link rel="shortcut icon" href="img/favicon.ico" alt="Missing icon" />
-    <!-- Bootstrap CSS https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <!-- Style.css -->
-    <link rel="stylesheet" href="css/style.css" />
-    <!-- Plugins.css -->
-    <link rel="stylesheet" href="css/plugins.css" />
-    <!-- Google Fonts https://fonts.google.com/ -->
-    <!-- <link
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Raj WebDev</title>
+  <link rel="shortcut icon" href="img/favicon.ico" alt="Missing icon" />
+  <!-- Bootstrap CSS https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <!-- Style.css -->
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Plugins.css -->
+  <link rel="stylesheet" href="css/plugins.css" />
+  <!-- Google Fonts https://fonts.google.com/ -->
+  <!-- <link
       href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap"
       rel="stylesheet"
     /> -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Poppins:300,400,700"
-      rel="stylesheet"
-    />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet" />
 
-    <!-- Animate.css https://cdnjs.com/libraries/animate.css/
+  <!-- Animate.css https://cdnjs.com/libraries/animate.css/
 		https://daneden.github.io/animate.css/ -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
-    />
-    <!-- Lightbox Image Gallery https://cdnjs.com/libraries/lightbox2  https://lokeshdhakar.com/projects/lightbox2/ -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css"
-    />
-    <!-- Owl Carousel https://cdnjs.com/libraries/OwlCarousel2
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
+  <!-- Lightbox Image Gallery https://cdnjs.com/libraries/lightbox2  https://lokeshdhakar.com/projects/lightbox2/ -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css" />
+  <!-- Owl Carousel https://cdnjs.com/libraries/OwlCarousel2
 	http://owlcarousel2.github.io/OwlCarousel2/ -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-    />
-    <!-- jQuery https://code.jquery.com/ -->
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.min.js"
-      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-      crossorigin="anonymous"
-    ></script>
-    <!-- Bootstrap JS https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body data-spy="scroll" data-target="#navbarResponsive">
-    <!-- Start Home Section -->
-    <div id="home">
-      <!-- Navigation -->
-      <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container-fluid">
-          <div>
-            <ul class="social">
-              <a href="#home" class="navbar-brand"
-                ><img
-                  src="img/rajSmPhoto.jpg"
-                  width="24"
-                  height="24"
-                  alt="missing photo"
-              /></a>
-            </ul>
-          </div>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+  <!-- jQuery https://code.jquery.com/ -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <!-- Bootstrap JS https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</head>
 
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarResponsive"
-          >
-            <span class="custom-toggler-icon"><i class="fas fa-bars"></i></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a href="#home" class="nav-link">Home</a>
-              </li>
-              <li class="nav-item">
-                <a href="#projects" class="nav-link">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a href="#experience" class="nav-link">Experience</a>
-              </li>
-              <li class="nav-item">
-                <a href="#contact" class="nav-link">Contact Me</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <!-- End Navigation -->
-
-      <!-- Start Landing Page Image -->
-      <div class="landing">
-        <div class="home-wrap">
-          <div class="home-inner"></div>
-        </div>
-      </div>
-      <!-- End Landing Page Image -->
-
-      <!-- Start Landing Page Caption -->
-      <div class="caption text-center  text-uppercase">
-        <h1 class="font-weight-bold os-animation">
-          Rajasekhar Katakamsetty
-        </h1>
-        <h3 class=" text-camel">
-          Full-stack Web Developer (Rails/React) 
-        </h3>
-
+<body data-spy="scroll" data-target="#navbarResponsive">
+  <!-- Start Home Section -->
+  <div id="home">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
         <div>
-            <ul class="social">
-              <li>
-                <a
-                  href="https://www.linkedin.com/in/rajkatakamsetty/"
-                  target="_blank"
-                  ><i class="fab fa-linkedin fa-2x"></i
-                ></a>
-              </li>
-              <li>
-                <a href="https://github.com/IBTechRaj" target="_blank"
-                  ><i class="fab fa-github fa-2x"></i
-                ></a>
-              </li>
-            </ul>
-          </div>
-          <div class="mx-auto my-5 text-camel"><h5>Skills</h5></div>
-          <div> <h4 class="text-camel mt-5">Bootstrap, C, C++, COBOL, CSS, HTML, JavaScript, Oracle DBA, PL/Sql, Rails, React, Redux, Ruby, Unix, Unix Admin</h4></div>
-      </div>
-      <!-- End Landing Page Caption -->
-
-      <!-- Start Bouncing Down Arrow -->
-      <a href="#projects" class="down-arrow text-center">
-        <div class="arrow d-none d-md-block">
-          <i class="fas fa-angle-down"></i>
+          <ul class="social">
+            <a href="#home" class="navbar-brand"><img src="img/rajSmPhoto.jpg" width="24" height="24"
+                alt="missing photo" /></a>
+          </ul>
         </div>
-      </a>
-      <!-- End Bouncing Down Arrow -->
-    </div>
-    <!-- End Home Section -->
 
-    <!-- Start Features Section -->
-    <div id="projects" class="offset">
-      <!-- Start Jumbotron -->
-      <div class="jumbotron m-0 py-5">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+          <span class="custom-toggler-icon"><i class="fas fa-bars"></i></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#experience" class="nav-link">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navigation -->
+
+    <!-- Start Landing Page Image -->
+    <div class="landing">
+      <div class="home-wrap">
+        <div class="home-inner"></div>
+      </div>
+    </div>
+    <!-- End Landing Page Image -->
+
+    <!-- Start Landing Page Caption -->
+    <div class="caption text-center  text-uppercase">
+      <h1 class="font-weight-bold os-animation">
+        Rajasekhar Katakamsetty
+      </h1>
+      <h3 class=" text-camel">
+        Full-stack Web Developer (Rails/React)
+      </h3>
+
+      <div>
+        <ul class="social">
+          <li>
+            <a href="https://www.linkedin.com/in/rajkatakamsetty/" target="_blank"><i
+                class="fab fa-linkedin fa-2x"></i></a>
+          </li>
+          <li>
+            <a href="https://github.com/IBTechRaj" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="mx-auto my-5 text-camel">
+        <h5>Skills</h5>
+      </div>
+      <div>
+        <h4 class="text-camel mt-5">Bootstrap, C, C++, COBOL, CSS, HTML, JavaScript, Oracle DBA, PL/Sql, Rails, React,
+          Redux, Ruby, Unix, Unix Admin</h4>
+      </div>
+    </div>
+    <!-- End Landing Page Caption -->
+
+    <!-- Start Bouncing Down Arrow -->
+    <a href="#projects" class="down-arrow text-center">
+      <div class="arrow d-none d-md-block">
+        <i class="fas fa-angle-down"></i>
+      </div>
+    </a>
+    <!-- End Bouncing Down Arrow -->
+  </div>
+  <!-- End Home Section -->
+
+  <!-- Start Features Section -->
+  <div id="projects" class="offset">
+    <!-- Start Jumbotron -->
+    <div class="jumbotron m-0 py-5">
+      <div class="col-12 os-animation">
+        <h3 class="heading" style="color: white"> Projects During Microverse Course</h3>
+        <h5 class="text-center" style="color: white"> (H) Projects hosted on Heroku are not operational now</h5>
+        <div class="heading-underline"></div>
+      </div>
+
+      <div class="container">
+        <div class="row text-center px-lg-0 px-xl-0">
+          <div class="col-sm-6 px-0 py-5">
+            <div id="face-book-1"></div>
+          </div>
+          <div class="col-sm-6 px-0 py-5">
+            <div class="header-bg">
+              <div id="face-book-2">
+                <div>
+                  <h1>My Facebook (H)</h1>
+                </div>
+                <h5 class="text-justify px-2 py-0">
+                  This is a web app similar to Facebook designed to look and function almost as original Facebook. A
+                  visitor can post messages, pictures, comment and like others' posts, send and accept friend requests.
+                  Built using Ruby/RubyOnRails/Bootstrap.
+                </h5>
+                <h2 class="lead header-skills text-justify px-5 py-0">
+                  Technologies: Ruby, Ruby on Rails, CSS
+                </h2>
+                <div>
+                  <a href="https://rajfakebook.herokuapp.com/" class="btn btn-nuno btn-sm" target="_blank">View Demo</a>
+                  <a href="https://github.com/IBTechRaj/myFaceBook" class="btn btn-nuno btn-sm" target="_blank">Source
+                    Code</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row text-center px-lg-0 px-xl-0">
+          <div class="col-sm-6 px-0 py-5">
+            <div id="weather-app-1"></div>
+          </div>
+          <div class="col-sm-6 px-0 py-5">
+            <div class="header-bg">
+              <div id="weather-app-2">
+                <h1>Weather App</h1>
+                <h4 class="text-justify px-5 py-1">
+                  A weather app that pulls from the OpenWeatherMap API to get the
+                  forecast in cities worldwide. Built with JavaScript.
+                </h4>
+                <h2 class="lead header-skills text-justify px-5 py-0">
+                  Technologies: HTML, CSS, JavaScript, Promises
+                </h2>
+                <div>
+                  <a href="https://ibtechraj.github.io/weatherApp/" class="btn btn-nuno btn-sm" target="_blank">View
+                    Demo</a>
+                  <a href="https://github.com/IBTechRaj/weatherApp/" class="btn btn-nuno btn-sm" target="_blank">Source
+                    Code</a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row text-center px-lg-0 px-xl-0">
+          <div class="col-sm-6 px-0 py-5">
+            <div id="todo-1"></div>
+          </div>
+          <div class="col-sm-6 px-0 py-5">
+            <div class="header-bg">
+              <div id="todo-2">
+                <h1>ToDo List App</h1>
+                <h4 class="text-justify px-5 py-2">
+                  App that creates a list of projects and a list of ToDos in
+                  each project. ToDos can be added, edited, or deleted.
+                </h4>
+                <h2 class="lead header-skills text-justify px-5 py-2">
+                  Technologies: HTML, CSS, JavaScript
+                </h2>
+                <div>
+                  <a href="https://ibtechraj.github.io/rajTodoList/" class="btn btn-nuno btn-sm" target="_blank">View
+                    Demo</a>
+                  <a href="https://github.com/IBTechRaj/rajTodoList/" class="btn btn-nuno btn-sm" target="_blank">Source
+                    Code</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row text-center px-lg-0 px-xl-0">
+          <div class="col-sm-6 px-0 py-5">
+            <div id="game-1"></div>
+          </div>
+          <div class="col-sm-6 px-0 py-5">
+            <div class="header-bg">
+              <div id="game-2">
+                <h1>Fly Safe</h1>
+                <h5 class="text-justify px-4 py-2">
+                  A video game where a player has to maneuver a plane avoiding the birds that come his way. Built
+                  using Phaser 3 Game Engine, JavaScript, and Promises.
+                </h5>
+                <h2 class="lead header-skills text-justify px-5 py-2">
+                  Technologies: HTML, Phaser, JavaScript, Promises
+                </h2>
+                <div>
+                  <a href="https://aeroplane.netlify.com/" class="btn btn-nuno btn-sm" target="_blank">View Demo</a>
+                  <a href="https://github.com/IBTechRaj/flySafe/" class="btn btn-nuno btn-sm" target="_blank">Source
+                    Code</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row text-center px-lg-0 px-xl-0">
+          <div class="col-sm-6 px-0 py-5">
+            <div id="calculator-1"></div>
+          </div>
+          <div class="col-sm-6 px-0 py-5">
+            <div class="header-bg">
+              <div id="calculator-2">
+                <h1>Calculator (H)</h1>
+                <h4 class="text-justify px-5 py-2">
+                  This App works as a calculator. It takes input by mouse
+                  clicks and makes calculations and displays the result on the
+                  screen.
+                </h4>
+                <h2 class="lead header-skills text-justify px-5 py-2">
+                  Technologies: HTML, CSS, React, Bootstrap
+                </h2>
+                <div>
+                  <a href="https://microverse-calc.herokuapp.com/" class="btn btn-nuno btn-sm" target="_blank">View
+                    Demo</a>
+                  <a href="https://github.com/IBTechRaj/ReactCalculator" class="btn btn-nuno btn-sm"
+                    target="_blank">Source Code</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row text-center px-lg-0 px-xl-0">
+          <div class="col-sm-6 px-0 py-5">
+            <div id="recipe-store-1"></div>
+          </div>
+          <div class="col-sm-6 px-0 py-5">
+            <div class="header-bg">
+              <div id="recipe-store-2">
+                <h1>Recipe Store (H)</h1>
+                <h5 class="text-justify px-3 py-1">
+                  This App retrieves recipe data from 'The Meal DB' website using their API and displays on the
+                  screen.
+                  A visitor can select recipes choosing a category and view the details of each recipe by clicking on
+                  the recipe card. Built using React/Redux.
+                </h5>
+                <h2 class="lead header-skills text-justify px-5 py-1">
+                  Technologies: React, Redux
+                </h2>
+                <div>
+                  <a href="https://recipe-store.herokuapp.com/" class="btn btn-nuno btn-sm" target="_blank">View
+                    Demo</a>
+                  <a href="https://github.com/IBTechRaj/recipe-store/" class="btn btn-nuno btn-sm"
+                    target="_blank">Source Code</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row text-center px-lg-0 px-xl-0">
+          <div class="col-sm-6 px-0 py-5">
+            <div id="tracker-app-1"></div>
+          </div>
+          <div class="col-sm-6 px-0 py-5">
+            <div class="header-bg">
+              <div id="tracker-app-2">
+                <h1>Tracker App (H)</h1>
+                <h5 class="text-justify px-3 py-0">
+                  This app keeps track of the progress of a user's technical training program. It accepts the data
+                  about
+                  the modules covered against the set targets and shows the details date-wise and progress is shown
+                  using a circular progress bar. This app is front-end that stores and retrieves data from a back-end
+                  the data is stored in a backend (which is a different repo called 'trackit-server'.
+                </h5>
+                <h2 class="lead header-skills text-justify px-5 py-0">
+                  Technologies: Rails API, React, Redux
+                </h2>
+                <div>
+                  <a href="http://tracking-client.herokuapp.com/" class="btn btn-nuno btn-sm" target="_blank">View
+                    Demo</a>
+                  <a href="https://github.com/IBTechRaj/tracker-app-client" class="btn btn-nuno btn-sm"
+                    target="_blank">Source Code</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+      <!-- End Container-->
+    </div>
+
+
+
+
+    <div class="fixed container-fluid dark" id="experience">
+      <div class="row  text-light text-center">
         <div class="col-12 os-animation">
-          <h3 class="heading" style="color: white">RECENT PROJECTS</h3>
+          <h3 class="heading">For earlier tech experience view my <a
+              href="https://docs.google.com/document/d/1urATwEQ4DPLtSQCmDEY0eCtomG1tXpW4m3NM5ss9Wlo/edit?usp=sharing"
+              target="_blank">Resume</a></h3>
           <div class="heading-underline"></div>
         </div>
-
-        <div class="container">
-          <div class="row text-center px-lg-0 px-xl-0">
-            <div class="col-sm-6 px-0 py-5">
-              <div id="face-book-1"></div>
-            </div>
-            <div class="col-sm-6 px-0 py-5">
-              <div class="header-bg">
-                <div id="face-book-2">
-                <div>
-                  <h1>My Facebook</h1>
-                  </div>
-                  <h4 class="text-justify px-2 py-0">
-                    This is a web app similar to Facebook designed to look and function almost as original Facebook. A visitor can sign up, sign in, post messages, pictures, comment and like others' posts, send friend requests, and accept friend requests. Built using Ruby/RubyOnRails/Bootstrap.
-                  </h4>
-                  <h2 class="lead header-skills text-justify px-5 py-0">
-                    Technologies: Ruby, Ruby on Rails, CSS
-                  </h2>
-                  <div>
-                    <a
-                      href="https://rajfakebook.herokuapp.com/"
-                      class="btn btn-nuno btn-sm"
-                      target="_blank"
-                      >View Demo</a
-                    >
-                    <a
-                      href="https://github.com/IBTechRaj/myFaceBook"
-                      class="btn btn-nuno btn-sm"
-                      target="_blank"
-                      >Source Code</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="row text-center px-lg-0 px-xl-0">
-            <div class="col-sm-6 px-0 py-5">
-              <div id="weather-app-1"></div>
-            </div>
-            <div class="col-sm-6 px-0 py-5">
-              <div class="header-bg">
-                <div id="weather-app-2">
-                  <h1>Weather App</h1>
-                  <h4 class="text-justify px-5 py-1">
-                    A weather app that pulls from the OpenWeatherMap API to allow users to search for and view the forecast in cities worldwide. Built with JavaScript.
-                  </h4>
-                  <h2 class="lead header-skills text-justify px-5 py-0">
-                    Technologies: HTML, CSS, JavaScript, Promises
-                  </h2>
-                  <div>
-                    <a
-                      href="https://ibtechraj.github.io/weatherApp/"
-                      class="btn btn-nuno btn-sm"
-                      target="_blank"
-                      >View Demo</a
-                    >
-                    <a
-                      href="https://github.com/IBTechRaj/weatherApp"
-                      class="btn btn-nuno btn-sm"
-                      target="_blank"
-                      >Source Code</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="row text-center px-lg-0 px-xl-0">
-            <div class="col-sm-6 px-0 py-5">
-              <div id="todo-1"></div>
-            </div>
-            <div class="col-sm-6 px-0 py-5">
-              <div class="header-bg">
-                <div id="todo-2">
-                  <h1>ToDo List App</h1>
-                  <h4 class="text-justify px-5 py-2">
-                    App that creates a list of projects and a list of ToDos in
-                    each project. ToDos can be added, edited, or deleted.
-                  </h4>
-                  <h2 class="lead header-skills text-justify px-5 py-2">
-                    Technologies: HTML, CSS, JavaScript
-                  </h2>
-                  <div>
-                    <a
-                      href="https://ibtechraj.github.io/rajTodoList/"
-                      class="btn btn-nuno btn-sm"
-                      target="_blank"
-                      >View Demo</a
-                    >
-                    <a
-                      href="https://github.com/IBTechRaj/rajTodoList/"
-                      class="btn btn-nuno btn-sm"
-                      target="_blank"
-                      >Source Code</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="row text-center px-lg-0 px-xl-0">
-            <div class="col-sm-6 px-0 py-5">
-              <div id="game-1"></div>
-            </div>
-            <div class="col-sm-6 px-0 py-5">
-              <div class="header-bg">
-                <div id="game-2">
-                  <h1>Fly Safe</h1>
-                  <h4 class="text-justify px-4 py-2">
-                    This is a video game. The player has to maneuver a plane avoiding the birds that come his way. Built using Phaser 3 Game Engine, JavaScript, and Promises.
-                  </h4>
-                  <h2 class="lead header-skills text-justify px-5 py-2">
-                    Technologies: HTML, Phaser, JavaScript, Promises
-                  </h2>
-                  <div>
-                    <a
-                      href="https://aeroplane.netlify.com/"
-                      class="btn btn-nuno btn-sm"
-                      target="_blank"
-                      >View Demo</a
-                    >
-                    <a
-                      href="https://github.com/IBTechRaj/flySafe/"
-                      class="btn btn-nuno btn-sm"
-                      target="_blank"
-                      >Source Code</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="row text-center px-lg-0 px-xl-0">
-            <div class="col-sm-6 px-0 py-5">
-              <div id="calculator-1"></div>
-            </div>
-            <div class="col-sm-6 px-0 py-5">
-              <div class="header-bg">
-                <div id="calculator-2">
-                  <h1>Calculator</h1>
-                  <h4 class="text-justify px-5 py-2">
-                    This App works as a calculator. It takes input by mouse
-                    clicks and makes calculations and displays the result on the
-                    screen.
-                  </h4>
-                  <h2 class="lead header-skills text-justify px-5 py-2">
-                    Technologies: HTML, CSS, React, Bootstrap
-                  </h2>
-                  <div>
-                    <a
-                      href="https://microverse-calc.herokuapp.com/"
-                      class="btn btn-nuno btn-sm"
-                      target="_blank"
-                      >View Demo</a
-                    >
-                    <a
-                      href="https://github.com/IBTechRaj/ReactCalculator"
-                      class="btn btn-nuno btn-sm"
-                      target="_blank"
-                      >Source Code</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="row text-center px-lg-0 px-xl-0">
-            <div class="col-sm-6 px-0 py-5">
-              <div id="recipe-store-1"></div>
-            </div>
-            <div class="col-sm-6 px-0 py-5">
-              <div class="header-bg">
-                <div id="recipe-store-2">
-                  <h1>Recipe Store</h1>
-                  <h4 class="text-justify px-3 py-1">
-                    This App retrieves recipe data from 'The Meal DB' website using their API and displays on the screen. A visitor can select recipes choosing a category and view the details of each recipe by clicking on the recipe card. Built using React/Redux.
-                  </h4>
-                  <h2 class="lead header-skills text-justify px-5 py-1">
-                    Technologies: React, Redux
-                  </h2>
-                  <div>
-                    <a
-                      href="https://recipe-store.herokuapp.com/"
-                      class="btn btn-nuno btn-sm"
-                      target="_blank"
-                      >View Demo</a
-                    >
-                    <a
-                      href="https://github.com/IBTechRaj/recipe-store/"
-                      class="btn btn-nuno btn-sm"
-                      target="_blank"
-                      >Source Code</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="row text-center px-lg-0 px-xl-0">
-            <div class="col-sm-6 px-0 py-5">
-              <div id="tracker-app-1"></div>
-            </div>
-            <div class="col-sm-6 px-0 py-5">
-              <div class="header-bg">
-                <div id="tracker-app-2">
-                  <h1>Tracker App</h1>
-                  <h4 class="text-justify px-3 py-1">
-                    This app keeps track of the progress of a user's technical training program. It accepts the data about the modules covered against the set targets and shows the details date-wise and progress is shown using a circular progress bar. This app is front-end that stores and retrieves data from a back-end the data is stored in a backend (which is a different repo called 'trackit-server'.
-                  </h4>
-                  <h2 class="lead header-skills text-justify px-5 py-1">
-                    Technologies: Rails API, React, Redux
-                  </h2>
-                  <div>
-                    <a
-                      href="http://tracking-client.herokuapp.com/"
-                      class="btn btn-nuno btn-sm"
-                      target="_blank"
-                      >View Demo</a
-                    >
-                    <a
-                      href="https://github.com/IBTechRaj/tracker-app-client"
-                      class="btn btn-nuno btn-sm"
-                      target="_blank"
-                      >Source Code</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-   
-        </div>
-        <!-- End Container-->
       </div>
-
-
-
-
-      <div class="fixed container-fluid dark" id="experience">
-        <div class="row  text-light text-center">
-          <div class="col-12 os-animation">
-            <h3 class="heading">For earlier tech experience view my <a
-                      href="https://docs.google.com/document/d/1t-2nE2akpBMVrS5YoPt1DkthxQ5-WF5k8g4cLGGp8z8/edit?usp=sharing"
-                      target="_blank"
-                      >Resume</a
-                    ></h3>
-            <div class="heading-underline"></div>
-          </div>
-        </div>
-      </div>
-      <!-- End Jumbotron -->
+    </div>
+    <!-- End Jumbotron -->
 
     <!-- End of Portfolio Section -->
 
@@ -448,58 +365,32 @@
                 <p>Hyderabad<br />India</p>
                 <strong>Contact Info</strong>
                 <p>(+91) 98495 78298<br />krs30018@gmail.com</p>
-                
+
               </div>
               <!-- End Column -->
 
               <div class="col-md-7 px-0 pl-md-3">
                 <h3>Contact Me</h3>
 
-                <form
-                  action="contact/contact.php"
-                  method="POST"
-                  id="contact-form"
-                >
+                <form action="contact/contact.php" method="POST" id="contact-form">
                   <div class="messages"></div>
                   <div class="controls">
                     <div class="form-group">
-                      <input
-                        type="text"
-                        id="form_name"
-                        class="form-control"
-                        name="name"
-                        required="required"
-                        placeholder="Enter your name."
-                      />
+                      <input type="text" id="form_name" class="form-control" name="name" required="required"
+                        placeholder="Enter your name." />
                     </div>
 
                     <div class="form-group">
-                      <input
-                        type="email"
-                        id="form_email"
-                        class="form-control"
-                        name="email"
-                        required="required"
-                        placeholder="Enter your email."
-                      />
+                      <input type="email" id="form_email" class="form-control" name="email" required="required"
+                        placeholder="Enter your email." />
                     </div>
 
                     <div class="form-group">
-                      <textarea
-                        name="message"
-                        id="form_message"
-                        rows="4"
-                        class="form-control"
-                        required="required"
-                        placeholder="Add your message."
-                      ></textarea>
+                      <textarea name="message" id="form_message" rows="4" class="form-control" required="required"
+                        placeholder="Add your message."></textarea>
                     </div>
 
-                    <input
-                      type="submit"
-                      class="btn btn-outline-light btn-sm"
-                      value="Send Message"
-                    />
+                    <input type="submit" class="btn btn-outline-light btn-sm" value="Send Message" />
                   </div>
                   <!-- End Controls -->
                 </form>
@@ -542,5 +433,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script>
 
     <!-- End of Script Source Files -->
-  </body>
+</body>
+
 </html>
